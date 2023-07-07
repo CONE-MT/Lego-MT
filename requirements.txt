@@ -1,0 +1,11 @@
+fairseq # cd fairseq # pip install ./
+torch==1.13.1
+numpy
+pandas
+sacrebleu==1.5.1
+gitpython
+sentencepiece
+pytest
+fairscale
+tensorflow
+mt-pjlab  # pip install -e ./
