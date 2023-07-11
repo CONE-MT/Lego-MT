@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="png/lego-MT.jpg" border="0" width=1200px/>
+<img src="png/lego-MT_logo.png" border="0" width=1200px/>
 </div>
 
 ------
