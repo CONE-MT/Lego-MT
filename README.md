@@ -82,6 +82,18 @@ You can download the checkpoint of [Lego-MT](https://drive.google.com/drive/fold
 ```
 
 #### Step 3: Inference
+You can choose different ensemble types for inference.
+
+ensemble_type=1: DecFlow (multilingual encoder + languages-specific decoder)
+
+ensemble_type=2: Enc-Flow (languages-specific encoder + multilingual decoder)
+
+ensemble_type=4: Mix-Flow (multilingual encoder + multilingual decoder)
+
+ensemble_type=8: unseen language-specific Flow (the combination of a language-specific encoder and a language-specific decoder)
+
+Notice: the multilingual encoder is named encoder_main.pt and the multilingual decoder is named decoder_m2m.pt in the checkpoint directory.
+
 ```python
  # M2M_FNAME: directory path of downloaded lego-MT model
   python ./code/fairseq/fairseq_cli/generate.py  /path/IDX_PATH \
