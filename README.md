@@ -107,10 +107,22 @@ Notice: the multilingual encoder is named encoder_main.pt and the multilingual d
 ## Citation
 If you find this repository helpful, feel free to cite our paper:
 ```bibtex
-@article{yuan2022lego,
-  title={Lego-MT: Towards Detachable Models in Massively Multilingual Machine Translation},
-  author={Yuan, Fei and Lu, Yinquan and Zhu, WenHao and Kong, Lingpeng and Li, Lei and Xu, Jingjing},
-  journal={arXiv preprint arXiv:2212.10551},
-  year={2022}
+@inproceedings{yuan-etal-2023-lego,
+    title = "{L}ego-{MT}: Learning Detachable Models for Massively Multilingual Machine Translation",
+    author = "Yuan, Fei  and
+      Lu, Yinquan  and
+      Zhu, Wenhao  and
+      Kong, Lingpeng  and
+      Li, Lei  and
+      Qiao, Yu  and
+      Xu, Jingjing",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.731",
+    doi = "10.18653/v1/2023.findings-acl.731",
+    pages = "11518--11533",
 }
 ```
