@@ -48,7 +48,7 @@ pip install -e .
 ```
 
 ## What News
-You can download the dataset of Lego-MT from [here](https://pan.baidu.com/s/1L3gFonSGzCB7sVfvLAQcuA)(password: 5q6u).
+You can download the dataset of Lego-MT from [here](https://pan.baidu.com/s/1-zVfOvydBEgCVOgu7dmFsw)(password: ta8E).
 
 
 ## Quick Start
